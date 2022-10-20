@@ -38,3 +38,5 @@ yang di buat :
     template -> 1 
     database : mySQL
     Hosting : free dan paid
+    
+3. Desain Sistem
