@@ -1,3 +1,5 @@
+https://docs.google.com/spreadsheets/d/1aSxsZwbLXt1X7iCDvKyQwtaMvIJTm69wOOsZmRGZqJA/edit?usp=sharing
+
 1. deteksi dan ekstraksi teks dari faktur/bukti tansfer ebanking atau bukti tansaksi lainnya
 Tujuan :
     - untuk audit transaksi berdasarkan faktur/bukti tansfer ebanking
