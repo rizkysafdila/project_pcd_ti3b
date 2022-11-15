@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('dashboard.index');
 });
 
-Route::get('/login', function () {
-    return view('auth.signin');
-});
+Route::get('/login', [LoginController::class, 'index'])->middleware('guest');
+Route::post('/login', [LoginController::class, 'login']);
+Route::get('/logout', [LoginController::class, 'logout']);
 
 Route::get('/register', function () {
     return view('auth.signup');
