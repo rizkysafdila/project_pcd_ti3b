@@ -16,7 +16,7 @@
                             <span class="stat-cards-info__profit success">
                                 <i data-feather="trending-up" aria-hidden="true"></i>4.07%
                             </span>
-                            Last month
+                            Pemasukan Hari Ini
                         </p>
                     </div>
                 </article>
@@ -33,7 +33,7 @@
                             <span class="stat-cards-info__profit success">
                                 <i data-feather="trending-up" aria-hidden="true"></i>0.24%
                             </span>
-                            Last month
+                            Pengeluaran Hari Ini
                         </p>
                     </div>
                 </article>
@@ -50,7 +50,7 @@
                             <span class="stat-cards-info__profit danger">
                                 <i data-feather="trending-down" aria-hidden="true"></i>1.64%
                             </span>
-                            Last month
+                            Pendapatan Hari Ini
                         </p>
                     </div>
                 </article>
@@ -67,7 +67,7 @@
                             <span class="stat-cards-info__profit warning">
                                 <i data-feather="trending-up" aria-hidden="true"></i>0.00%
                             </span>
-                            Last month
+                            Sisa Uang
                         </p>
                     </div>
                 </article>
@@ -84,11 +84,11 @@
                             <tr class="users-table-info">
                                 <th>
                                     <label class="users-table__checkbox ms-20">
-                                        <input type="checkbox" class="check-all">Thumbnail
+                                        <input type="checkbox" class="check-all">Jenis
                                     </label>
                                 </th>
-                                <th>Title</th>
-                                <th>Author</th>
+                                <th>Kategori</th>
+                                <th>Karyawan</th>
                                 <th>Status</th>
                                 <th>Date</th>
                                 <th>Action</th>
@@ -108,7 +108,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    Starting your traveling blog with Vasco
+                                    Transfer
                                 </td>
                                 <td>
                                     <div class="pages-table-img">
@@ -148,7 +148,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    Start a blog to reach your creative peak
+                                    Tarik Tunai
                                 </td>
                                 <td>
                                     <div class="pages-table-img">
@@ -188,7 +188,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    Helping a local business reinvent itself
+                                    Listrik
                                 </td>
                                 <td>
                                     <div class="pages-table-img">
@@ -228,7 +228,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    Caring is the new marketing
+                                    Wifi
                                 </td>
                                 <td>
                                     <div class="pages-table-img">
@@ -268,7 +268,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    How to build a loyal community online and offline
+                                    PDAM
                                 </td>
                                 <td>
                                     <div class="pages-table-img">
@@ -308,7 +308,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    How to build a loyal community online and offline
+                                    BPJS
                                 </td>
                                 <td>
                                     <div class="pages-table-img">
@@ -334,6 +334,7 @@
                                         </ul>
                                     </span>
                                 </td>
+                            </td>
                             </tr>
                         </tbody>
                     </table>
@@ -348,87 +349,56 @@
                 </article>
                 <article class="white-block">
                     <div class="top-cat-title">
-                        <h3>Top categories</h3>
-                        <p>28 Categories, 1400 Posts</p>
+                        <h3>Pembayaran Teratas</h3>
+                        <p>5 Kategori</p>
                     </div>
                     <ul class="top-cat-list">
                         <li>
                             <a href="##">
                                 <div class="top-cat-list__title">
-                                    Lifestyle <span>8.2k</span>
-                                </div>
-                                <div class="top-cat-list__subtitle">
-                                    Dailiy lifestyle articles <span class="purple">+472</span>
+                                    Pulsa <span>8.2k</span>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="##">
                                 <div class="top-cat-list__title">
-                                    Tutorials <span>8.2k</span>
-                                </div>
-                                <div class="top-cat-list__subtitle">
-                                    Coding tutorials <span class="blue">+472</span>
+                                    Transfer <span>8.2k</span>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="##">
                                 <div class="top-cat-list__title">
-                                    Technology <span>8.2k</span>
-                                </div>
-                                <div class="top-cat-list__subtitle">
-                                    Dailiy technology articles <span class="danger">+472</span>
+                                    Wifi <span>8.2k</span>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="##">
                                 <div class="top-cat-list__title">
-                                    UX design <span>8.2k</span>
-                                </div>
-                                <div class="top-cat-list__subtitle">
-                                    UX design tips <span class="success">+472</span>
+                                    Listrik <span>8.2k</span>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="##">
                                 <div class="top-cat-list__title">
-                                    Interaction tips <span>8.2k</span>
-                                </div>
-                                <div class="top-cat-list__subtitle">
-                                    Interaction articles <span class="warning">+472</span>
+                                   PDAM <span>8.2k</span>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="##">
                                 <div class="top-cat-list__title">
-                                    App development <span>8.2k</span>
-                                </div>
-                                <div class="top-cat-list__subtitle">
-                                    Mobile development articles <span class="warning">+472</span>
+                                    BPJS <span>8.2k</span>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="##">
                                 <div class="top-cat-list__title">
-                                    Nature <span>8.2k</span>
-                                </div>
-                                <div class="top-cat-list__subtitle">
-                                    Wildlife animal articles <span class="warning">+472</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="##">
-                                <div class="top-cat-list__title">
-                                    Geography <span>8.2k</span>
-                                </div>
-                                <div class="top-cat-list__subtitle">
-                                    Geography articles <span class="primary">+472</span>
+                                    Tarik Tunai <span>8.2k</span>
                                 </div>
                             </a>
                         </li>

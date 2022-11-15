@@ -20,14 +20,23 @@
                     <a class="active" href="/"><span class="icon home" aria-hidden="true"></span>Dashboard</a>
                 </li>
 
+                <ul class="sidebar-body-menu">
                 <li>
-                    <a href="/">
+                    <a class="show-cat-btn" href="a">
                         <span class="icon paper" aria-hidden="true"></span>
-                        Laporan Struk
+                        Report
+                    <span class="category__btn transparent-btn" title="Open list">
+                    <span class="sr-only">Open list</span>
+                    <span class="icon arrow-down" aria-hidden="true"></span>
                     </a>
-                    <span class="msg-counter">7</span>
+                    <ul class="cat-sub-menu">
+                        <li>
+                            <a href="report">Laporan Karyawan</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
+
             <ul class="sidebar-body-menu">
                 <li>
                     <a class="show-cat-btn" href="a">
