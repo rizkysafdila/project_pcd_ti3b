@@ -40,7 +40,8 @@
                             </div>
                             <div class="notification-dropdown-text">
                                 <span class="notification-dropdown__title">System just updated</span>
-                                <span class="notification-dropdown__subtitle">The system has been successfully upgraded. Read more
+                                <span class="notification-dropdown__subtitle">The system has been successfully upgraded.
+                                    Read more
                                     here.</span>
                             </div>
                         </a>
@@ -52,7 +53,8 @@
                             </div>
                             <div class="notification-dropdown-text">
                                 <span class="notification-dropdown__title">The cache is full!</span>
-                                <span class="notification-dropdown__subtitle">Unnecessary caches take up a lot of memory space and
+                                <span class="notification-dropdown__subtitle">Unnecessary caches take up a lot of memory
+                                    space and
                                     interfere ...</span>
                             </div>
                         </a>
@@ -78,7 +80,8 @@
                     <span class="sr-only">My profile</span>
                     <span class="nav-user-img">
                         <picture>
-                            <source srcset="./img/avatar/avatar-illustrated-02.webp" type="image/webp"><img src="./img/avatar/avatar-illustrated-02.png" alt="User name">
+                            <source srcset="./img/avatar/avatar-illustrated-02.webp" type="image/webp"><img
+                                src="./img/avatar/avatar-illustrated-02.png" alt="User name">
                         </picture>
                     </span>
                 </button>
@@ -91,7 +94,7 @@
                             <i data-feather="settings" aria-hidden="true"></i>
                             <span>Account settings</span>
                         </a></li>
-                    <li><a class="danger" href="##">
+                    <li><a class="danger" href="/logout">
                             <i data-feather="log-out" aria-hidden="true"></i>
                             <span>Log out</span>
                         </a></li>

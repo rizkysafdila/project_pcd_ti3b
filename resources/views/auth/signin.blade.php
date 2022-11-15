@@ -18,21 +18,29 @@
         <article class="sign-up">
             <h1 class="sign-up__title">Welcome back!</h1>
             <p class="sign-up__subtitle">Sign in to your account to continue</p>
-            <form class="sign-up-form form" action="" method="">
+            <form class="sign-up-form form" action="/login" method="POST" autocomplete="off">
+                @csrf
                 <label class="form-label-wrapper">
                     <p class="form-label">Email</p>
-                    <input class="form-input" type="email" placeholder="Enter your email" required>
+                    <input class="form-input @error('email') is-invalid @enderror" type="email"
+                        placeholder="Enter your email" required name="email" autofocus value="{{ old('email') }}">
+                    @error('email')
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
+                    @enderror
                 </label>
                 <label class="form-label-wrapper">
                     <p class="form-label">Password</p>
-                    <input class="form-input" type="password" placeholder="Enter your password" required>
+                    <input class="form-input" type="password" placeholder="Enter your password" required
+                        name="password">
                 </label>
                 <a class="link-info forget-link" href="##">Forgot your password?</a>
-                <label class="form-checkbox-wrapper">
-                    <input class="form-checkbox" type="checkbox" required>
+                {{-- <label class="form-checkbox-wrapper">
+                    <input class="form-checkbox" type="checkbox" name="remember">
                     <span class="form-checkbox-label">Remember me next time</span>
-                </label>
-                <button class="form-btn primary-default-btn transparent-btn">Sign in</button>
+                </label> --}}
+                <button class="form-btn primary-default-btn transparent-btn" type="submit">Sign in</button>
             </form>
         </article>
     </main>
